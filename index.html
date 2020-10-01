@@ -77,10 +77,9 @@
 
                                 channelListHtml += '  <div class="details">';
                                 channelListHtml += '  <div class="name">';
-                                if (app == 'youtube') {
-                                    channelListHtml += '<a target="_blank" href="https://www.youtube.com/channel/' + channelId + '" >';
-                
-                                }
+                                    if (app == 'youtube') {
+                                    channelListHtml += '<a target="_blank" href="https://www.youtube.com/channel/' + channelId + '/live" >';
+                            }
                                 channelListHtml += ' <div style="color: #ffffff" class="channel_name">' + channelTitle + '</div>';
                                 channelListHtml += ' <div class="stream_title">' + title + '</div>';
 
